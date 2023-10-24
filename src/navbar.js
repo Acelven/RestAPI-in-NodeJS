@@ -1,18 +1,19 @@
 import React from 'react';
-// import logo from './icons/logo.png';
 import './styles.css';
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-        <a href="/">
+          <Link to="/">
             <h2>Logo</h2>
-          </a>
+          </Link>
         </div>
         <ul className="navbar-menu">
-          <li><a href="/login">Log in</a></li>
-          <li><a href="/tracking">Tracking</a></li>
+          <li><Link to="/login">Log in</Link></li>
+          <li><Link to="/tracking">Tracking</Link></li>
           {/* Add more navigation items as needed */}
         </ul>
       </div>
