@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/acelven.github.io/RestAPI-in-NodeJS/static/css/main.ac453107.chunk.css",
-    "main.js": "/acelven.github.io/RestAPI-in-NodeJS/static/js/main.0515b4b7.chunk.js",
-    "main.js.map": "/acelven.github.io/RestAPI-in-NodeJS/static/js/main.0515b4b7.chunk.js.map",
-    "runtime-main.js": "/acelven.github.io/RestAPI-in-NodeJS/static/js/runtime-main.39117d85.js",
-    "runtime-main.js.map": "/acelven.github.io/RestAPI-in-NodeJS/static/js/runtime-main.39117d85.js.map",
-    "static/js/2.f3689c8b.chunk.js": "/acelven.github.io/RestAPI-in-NodeJS/static/js/2.f3689c8b.chunk.js",
-    "static/js/2.f3689c8b.chunk.js.map": "/acelven.github.io/RestAPI-in-NodeJS/static/js/2.f3689c8b.chunk.js.map",
-    "static/js/3.b0c001d8.chunk.js": "/acelven.github.io/RestAPI-in-NodeJS/static/js/3.b0c001d8.chunk.js",
-    "static/js/3.b0c001d8.chunk.js.map": "/acelven.github.io/RestAPI-in-NodeJS/static/js/3.b0c001d8.chunk.js.map",
-    "index.html": "/acelven.github.io/RestAPI-in-NodeJS/index.html",
-    "precache-manifest.b05bc38f44e389811ce7f242ffefd3ca.js": "/acelven.github.io/RestAPI-in-NodeJS/precache-manifest.b05bc38f44e389811ce7f242ffefd3ca.js",
-    "service-worker.js": "/acelven.github.io/RestAPI-in-NodeJS/service-worker.js",
-    "static/css/main.ac453107.chunk.css.map": "/acelven.github.io/RestAPI-in-NodeJS/static/css/main.ac453107.chunk.css.map",
-    "static/js/2.f3689c8b.chunk.js.LICENSE.txt": "/acelven.github.io/RestAPI-in-NodeJS/static/js/2.f3689c8b.chunk.js.LICENSE.txt",
-    "static/js/main.0515b4b7.chunk.js.LICENSE.txt": "/acelven.github.io/RestAPI-in-NodeJS/static/js/main.0515b4b7.chunk.js.LICENSE.txt",
-    "static/media/green-checkmark.png": "/acelven.github.io/RestAPI-in-NodeJS/static/media/green-checkmark.ba1dcb97.png"
+    "main.css": "/RestAPI-in-NodeJS/static/css/main.ac453107.chunk.css",
+    "main.js": "/RestAPI-in-NodeJS/static/js/main.64e644df.chunk.js",
+    "main.js.map": "/RestAPI-in-NodeJS/static/js/main.64e644df.chunk.js.map",
+    "runtime-main.js": "/RestAPI-in-NodeJS/static/js/runtime-main.22eb7a47.js",
+    "runtime-main.js.map": "/RestAPI-in-NodeJS/static/js/runtime-main.22eb7a47.js.map",
+    "static/js/2.d0a63fd1.chunk.js": "/RestAPI-in-NodeJS/static/js/2.d0a63fd1.chunk.js",
+    "static/js/2.d0a63fd1.chunk.js.map": "/RestAPI-in-NodeJS/static/js/2.d0a63fd1.chunk.js.map",
+    "static/js/3.b0c001d8.chunk.js": "/RestAPI-in-NodeJS/static/js/3.b0c001d8.chunk.js",
+    "static/js/3.b0c001d8.chunk.js.map": "/RestAPI-in-NodeJS/static/js/3.b0c001d8.chunk.js.map",
+    "index.html": "/RestAPI-in-NodeJS/index.html",
+    "precache-manifest.31e6ee8dd85998fd263480e4877b6c2b.js": "/RestAPI-in-NodeJS/precache-manifest.31e6ee8dd85998fd263480e4877b6c2b.js",
+    "service-worker.js": "/RestAPI-in-NodeJS/service-worker.js",
+    "static/css/main.ac453107.chunk.css.map": "/RestAPI-in-NodeJS/static/css/main.ac453107.chunk.css.map",
+    "static/js/2.d0a63fd1.chunk.js.LICENSE.txt": "/RestAPI-in-NodeJS/static/js/2.d0a63fd1.chunk.js.LICENSE.txt",
+    "static/js/main.64e644df.chunk.js.LICENSE.txt": "/RestAPI-in-NodeJS/static/js/main.64e644df.chunk.js.LICENSE.txt",
+    "static/media/green-checkmark.png": "/RestAPI-in-NodeJS/static/media/green-checkmark.ba1dcb97.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.39117d85.js",
-    "static/js/2.f3689c8b.chunk.js",
+    "static/js/runtime-main.22eb7a47.js",
+    "static/js/2.d0a63fd1.chunk.js",
     "static/css/main.ac453107.chunk.css",
-    "static/js/main.0515b4b7.chunk.js"
+    "static/js/main.64e644df.chunk.js"
   ]
 }
