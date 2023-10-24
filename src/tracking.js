@@ -15,7 +15,7 @@ const Tracking = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`http://localhost:3001/tracking_parcel/${trackingNumber}`);
+        const response = await axios.get(`https://acelven-eaf15aba7b70.herokuapp.com/tracking_parcel/${trackingNumber}`);
         setTrackingInfo(response.data);
 
         // Extract descriptions and format timestamps from the JSON data

@@ -6,7 +6,7 @@ const Login = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await fetch('http://localhost:3001/generate_token', {
+      const response = await fetch('https://acelven-eaf15aba7b70.herokuapp.com/generate_token', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
