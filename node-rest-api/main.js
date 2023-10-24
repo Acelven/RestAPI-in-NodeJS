@@ -8,7 +8,7 @@ const port = process.env.PORT || 3001;
 const secretKey = 'your-secret-key';
 
 app.use(express.json());
-app.use(cors({ origin: 'http://127.0.0.1:3000' }));
+app.use(cors({ origin: 'http://localhost:3000' }));
 
 // Endpoint to generate a token
 app.post('/generate_token', (req, res) => {

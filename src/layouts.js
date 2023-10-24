@@ -6,7 +6,7 @@ import Login from './login.js'
 
 const Layouts = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Navbar /> {/* Navbar always stays on top */}
       <Routes>
         <Route path="/tracking" element={<Tracking />} />
