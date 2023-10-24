@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/RestAPI-in-NodeJS/static/css/main.ac453107.chunk.css",
-    "main.js": "/RestAPI-in-NodeJS/static/js/main.6fce2faf.chunk.js",
-    "main.js.map": "/RestAPI-in-NodeJS/static/js/main.6fce2faf.chunk.js.map",
+    "main.js": "/RestAPI-in-NodeJS/static/js/main.fe5d134c.chunk.js",
+    "main.js.map": "/RestAPI-in-NodeJS/static/js/main.fe5d134c.chunk.js.map",
     "runtime-main.js": "/RestAPI-in-NodeJS/static/js/runtime-main.22eb7a47.js",
     "runtime-main.js.map": "/RestAPI-in-NodeJS/static/js/runtime-main.22eb7a47.js.map",
-    "static/js/2.707bf6a8.chunk.js": "/RestAPI-in-NodeJS/static/js/2.707bf6a8.chunk.js",
-    "static/js/2.707bf6a8.chunk.js.map": "/RestAPI-in-NodeJS/static/js/2.707bf6a8.chunk.js.map",
+    "static/js/2.4f236755.chunk.js": "/RestAPI-in-NodeJS/static/js/2.4f236755.chunk.js",
+    "static/js/2.4f236755.chunk.js.map": "/RestAPI-in-NodeJS/static/js/2.4f236755.chunk.js.map",
     "static/js/3.b0c001d8.chunk.js": "/RestAPI-in-NodeJS/static/js/3.b0c001d8.chunk.js",
     "static/js/3.b0c001d8.chunk.js.map": "/RestAPI-in-NodeJS/static/js/3.b0c001d8.chunk.js.map",
     "index.html": "/RestAPI-in-NodeJS/index.html",
-    "precache-manifest.ca5a7ad27a7731c750eefb7932ed1525.js": "/RestAPI-in-NodeJS/precache-manifest.ca5a7ad27a7731c750eefb7932ed1525.js",
+    "precache-manifest.eaa8a0a031b0be542c4476668e7ebceb.js": "/RestAPI-in-NodeJS/precache-manifest.eaa8a0a031b0be542c4476668e7ebceb.js",
     "service-worker.js": "/RestAPI-in-NodeJS/service-worker.js",
     "static/css/main.ac453107.chunk.css.map": "/RestAPI-in-NodeJS/static/css/main.ac453107.chunk.css.map",
-    "static/js/2.707bf6a8.chunk.js.LICENSE.txt": "/RestAPI-in-NodeJS/static/js/2.707bf6a8.chunk.js.LICENSE.txt",
-    "static/js/main.6fce2faf.chunk.js.LICENSE.txt": "/RestAPI-in-NodeJS/static/js/main.6fce2faf.chunk.js.LICENSE.txt",
+    "static/js/2.4f236755.chunk.js.LICENSE.txt": "/RestAPI-in-NodeJS/static/js/2.4f236755.chunk.js.LICENSE.txt",
+    "static/js/main.fe5d134c.chunk.js.LICENSE.txt": "/RestAPI-in-NodeJS/static/js/main.fe5d134c.chunk.js.LICENSE.txt",
     "static/media/green-checkmark.png": "/RestAPI-in-NodeJS/static/media/green-checkmark.ba1dcb97.png"
   },
   "entrypoints": [
     "static/js/runtime-main.22eb7a47.js",
-    "static/js/2.707bf6a8.chunk.js",
+    "static/js/2.4f236755.chunk.js",
     "static/css/main.ac453107.chunk.css",
-    "static/js/main.6fce2faf.chunk.js"
+    "static/js/main.fe5d134c.chunk.js"
   ]
 }
