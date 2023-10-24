@@ -5,15 +5,62 @@ const Tracking = () => {
   const [trackingInfo, setTrackingInfo] = useState(null);
   const trackingNumber = 'BPS1EP58YI5SKBR'; // Replace with the desired tracking number
 
+  // Initialize an array to collect description and timestamp values
+  const [descriptions, setDescriptions] = useState([]);
+
   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await axios.get(`http://localhost:3001/tracking_parcel/${trackingNumber}`);
         setTrackingInfo(response.data);
+
+        // Extract descriptions and format timestamps from the JSON data
+        const collectedData = extractDescriptions(response.data);
+        setDescriptions(collectedData);
       } catch (error) {
         console.error('Error fetching data:', error);
       }
     };
+
+    // Function to extract descriptions and format timestamps from tracking_code_locales
+    function extractDescriptions(data) {
+      const collectedData = [];
+
+      if (Array.isArray(data.parcel_tracking_items)) {
+        data.parcel_tracking_items.forEach((item) => {
+          const trackingCodeLocales1 = item.tracking_code_vendor?.tracking_code?.tracking_code_locales;
+          const trackingCodeLocales2 = item.tracking_code?.tracking_code_locales;
+
+          const localesToUse = trackingCodeLocales1 || trackingCodeLocales2;
+
+          if (Array.isArray(localesToUse)) {
+            localesToUse.forEach((locale) => {
+              if (locale.description && item.timestamp) {
+                const formattedTimestamp = formatTimestamp(item.timestamp);
+                collectedData.push({
+                  description: locale.description,
+                  timestamp: formattedTimestamp,
+                });
+              }
+            });
+          }
+        });
+      }
+
+      return collectedData;
+    }
+
+    // Function to format timestamps
+    function formatTimestamp(timestamp) {
+      const options = {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+      };
+      return new Date(timestamp).toLocaleDateString('en-US', options);
+    }
 
     fetchData();
   }, [trackingNumber]);
@@ -22,17 +69,26 @@ const Tracking = () => {
     return <div>Loading...</div>;
   }
 
-  // Render your component based on the trackingInfo JSON data
   return (
     <div>
       <h1>Tracking Information</h1>
       <p>Tracking Number: {trackingNumber}</p>
       <p>Status: {trackingInfo.status}</p>
-      <p>Description: {trackingInfo.description}</p>
-      
+
+      <h2>Descriptions</h2>
+      <ul>
+        {descriptions.map((item, index) => (
+          <li key={index}>
+            Description: {item.description}
+            <br />
+            Timestamp: {item.timestamp}
+          </li>
+        ))}
+      </ul>
+
       {/* Add more details as needed */}
     </div>
   );
-}
+};
 
 export default Tracking;
