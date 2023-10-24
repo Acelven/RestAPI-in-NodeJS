@@ -1,11 +1,10 @@
 import React from 'react';
-import './App.css';
-import Tracking from './tracking.js';
+import Layouts from './layouts.js';
 
 function App() {
   return (
-    <div className="App">
-      <Tracking />
+    <div>
+      <Layouts /> {/* Include the Routes component */}
     </div>
   );
 }

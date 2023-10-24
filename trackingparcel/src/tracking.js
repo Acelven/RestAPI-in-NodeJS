@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import './styles.css';
+import greencheck from './icons/green-checkmark.png'
+import gray from './icons/gray.png'
+import truck from './icons/truck.png'
 
 const Tracking = () => {
   const [trackingInfo, setTrackingInfo] = useState(null);
@@ -70,23 +74,33 @@ const Tracking = () => {
   }
 
   return (
-    <div>
-      <h1>Tracking Information</h1>
-      <p>Tracking Number: {trackingNumber}</p>
-      <p>Status: {trackingInfo.status}</p>
+    <div className="tracking-page">
+      <div className="tracking-info">
+        <h1>Tracking Information</h1>
+        <p>Tracking Number: {trackingNumber}</p>
+        <p>Status: {trackingInfo.status}</p>
 
-      <h2>Descriptions</h2>
-      <ul>
-        {descriptions.map((item, index) => (
-          <li key={index}>
-            Description: {item.description}
-            <br />
-            Timestamp: {item.timestamp}
-          </li>
-        ))}
-      </ul>
-
-      {/* Add more details as needed */}
+        {/* <h2>Descriptions</h2> */}
+        <ul>
+          {descriptions.map((item, index) => (
+              <li key={index}>
+              <div className="icon-container">
+        {index === 0 ? (
+          <img src={greencheck} alt="Green Checkmark" className="icon" />
+        ) : (
+          index === descriptions.length - 1 ? (
+            <img src={truck} alt="Truck" className="truck-icon" />
+          ) : (
+            <img src={gray} alt="Gray Dot" className="gray-icon" />
+          )
+        )}
+      </div>
+      <span className="timestamp">{item.timestamp}</span>
+      <span className="description">{item.description}</span>
+    </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
