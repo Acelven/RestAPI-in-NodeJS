@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a5cd98ec5b454181d8095a170b528eb",
+    "revision": "34d971609446d0177e2ac367ff42f1b3",
     "url": "/RestAPI-in-NodeJS/index.html"
   },
   {
-    "revision": "55d3046164cefcc58fd0",
+    "revision": "899ab0630da2b4f846ad",
     "url": "/RestAPI-in-NodeJS/static/css/main.ac453107.chunk.css"
   },
   {
@@ -20,12 +20,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RestAPI-in-NodeJS/static/js/3.b0c001d8.chunk.js"
   },
   {
-    "revision": "55d3046164cefcc58fd0",
-    "url": "/RestAPI-in-NodeJS/static/js/main.cb3f037b.chunk.js"
+    "revision": "899ab0630da2b4f846ad",
+    "url": "/RestAPI-in-NodeJS/static/js/main.6fce2faf.chunk.js"
   },
   {
     "revision": "4e0e34f265fae8f33b01b27ae29d9d6f",
-    "url": "/RestAPI-in-NodeJS/static/js/main.cb3f037b.chunk.js.LICENSE.txt"
+    "url": "/RestAPI-in-NodeJS/static/js/main.6fce2faf.chunk.js.LICENSE.txt"
   },
   {
     "revision": "a34d480d71e29d6ac6c8",
