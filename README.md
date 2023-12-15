@@ -1,6 +1,7 @@
 ### PREVIEW
 
 https://acelven.github.io/RestAPI-in-NodeJS/
+API might not be active.
 
 
 ### `npm start`
